@@ -27,7 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ______________________________________________________________________
-# APLICAÇÃO FRONT-END
+# APLICAÇÃO FRONT-END - Projeto: boas práticas em arquitetura e formulários
 
 ## Primeira parte: Home
 - Começamos um projeto utilizando o angular/cli como ferramenta de apoio em todo nosso fluxo de trabalho. Utilizando a opção --strict, ligamos mais verificações de tipo no nosso projeto, melhorando logo na largada a nossa qualidade do nosso código.
@@ -65,3 +65,13 @@ ______________________________________________________________________
 ## links interessantes:
 
 https://jwt.io/ - pega o token gerado e transforma ele em um objeto com as informações(não sensíveis) do usuário
+
+______________________________________________________________________
+# APLICAÇÃO FRONT-END - Projeto: controle o fluxo de navegação
+
+## primeira subida: Cartão de animais
+
+- Como criar um componente reutilizável, recebendo atributos utilizando o decorator @Input
+- Aprendemos a projetar um conteúdo externo no nosso componente utilizando a diretiva ng-content
+- Criamos um serviço e enviamos além dos parâmetros, o header da requisição utilizando o objeto HttpHeaders
+- Centralizamos a configuração do endereço da API utilizando o arquivo de environment.
