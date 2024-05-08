@@ -90,3 +90,34 @@ ______________________________________________________________________
 - Como carregar informações do servidor enquanto a rota é carregada utilizando o serviço do tipo Resolver
 - Criação de componentes de comentários e anexar ele ao componente de detalhe do animal
 - Como resetar o formulário após a requisição utilizando o operador tap
+
+## Última subida: novo animal
+
+- Como criar CSS para um componente específico, criando a animação do Menu da aplicação
+- Criamos um serviço de upload e aprendemos como enviar uma foto para nosso backend
+- Aprendemos a utilizar o HttpClient do Angular para monitorar o progresso da operação de upload.
+- Como criar o pacote do nosso projeto de front-end para ser enviado para a produção através do comando ng build.
+
+____________________________________________________________________________________________________________
+
+## Subida para a produção:
+
+- instalação do servidor web node ou http server: dentro da pasta gatitobook, utilizar o comando `npm i -g http-server`;
+- Após a execução do comando acima, na mesma pasta utilizar o comando `ng build --configuration=production`;
+- Para ver as pastas criadas, basta digitar `ls`, uma pasta nova que foi criada é a "dist", utilize `cd dist`, depois `cd .\gatitobook\`, para entrar nessas pastas, e depois utilize o `http-server`para executar o de produção 
+
+____________________________________________________________________________________________________________
+
+[] Construímos a nossa aplicação Gatito Book criando a lista de animais, a página de detalhe do animal com as opções de curtir, comentar e excluir o animal. Nós também criamos a página de “Novo Animal”, para o nosso usuário poder subir a foto do seu animal na nossa rede social.
+
+[] Começamos a criar a lista de animais utilizando o conceito de componentização para criar componentes reutilizáveis para a nossa página.
+
+[] Utilizamos também a guarda de rota para garantir o fluxo de navegação do nosso usuário e garantir que ele acesse apenas páginas que ele esteja autorizado.
+
+[] Criamos também um interceptor, que serve para manipular toda a requisição ao nosso back-end. Nesse caso, nós criamos o interceptor para anexar o token de autenticação a toda requisição que o nosso front-end faça ao nosso back-end.
+
+[] Depois criamos o formulário de novo animal e aprendemos a fazer o upload de fotos utilizando o HttpClient e o RxJS para fazer essa operação.
+
+[] Por fim, aprendemos a criar o bundle de produção para nós passarmos para a nossa equipe de DevOps, por exemplo, para colocar nossa aplicação front-end na produção.
+
+[] Foi muita informação. Para fixá-la, sugiro que você faça todas as atividades e participe do fórum tanto perguntando como respondendo, pois é compartilhando conhecimento que você vai fixá-lo ao máximo. Obrigado por fazer esse curso e não esqueça de avaliá-lo na plataforma. Até a próxima.
